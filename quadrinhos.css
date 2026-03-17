@@ -127,7 +127,7 @@ span {
 
 /* Estelizando todas as div ao mesmo tempo */
 .section-04 div {
-    width: 300px; /*largura da caixa*/
+    width: 300px; /*larga da caixa*/
     height: 300px;/*altura da caixa*/
     background-color: gray;/*cor de fundo*/
     padding: 15px; /*preenchimento interno*/
