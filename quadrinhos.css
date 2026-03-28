@@ -5,7 +5,11 @@ header {
     padding: 25px;
     /*responsavel pelo preenchimento interno/tamanho*/
     background-color: rgb(0, 0, 0);
-    /*Cor de fundo*/
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+/*Cor de fundo*/
     display: flex;
     /*tornando os itens Flex/lado a lado*/
     justify-content: space-evenly;
@@ -31,7 +35,7 @@ header h1 {
 .list-menu ul { /*Alteração na lista não ordenada (elemento pai)*/
     display: flex; /*tornando as ( li ) flex/lado a lado*/
     justify-content: center; /*Deixando elas centralizadas*/
-    gap: 20px; /*Espaço entre as ( li )*/
+    gap: ; /*Espaço entre as ( li )*/
 }
 
 .list-menu ul li { /*Alteração da Lista (li) (elemento filho)*/
